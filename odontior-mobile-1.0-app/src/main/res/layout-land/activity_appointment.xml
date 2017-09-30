@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.odontior.mobile.Appointment"
+    android:weightSum="1">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:stretchColumns="2"
+        android:background="#fffffed5"
+        android:padding="3dp">
+
+        <TableRow android:layout_width="wrap_content">
+            <TextView
+                android:id="@+id/dayLbl"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:hint="dayLbl"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_gravity="right"
+                android:padding="3dp"
+                android:gravity="center_vertical|right" />
+
+            <TextView
+                android:id="@+id/dow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="dow"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:padding="3dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/dateLbl"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:hint="dateLbl"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_gravity="right"
+                android:padding="3dp"
+                android:gravity="center_vertical|right" />
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:hint="date"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="false"
+                android:padding="3dp" />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/timeLbl"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:hint="timeLbl"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_gravity="right"
+                android:padding="3dp"
+                android:gravity="center_vertical|right" />
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="time"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:padding="3dp" />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/armchairLbl"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:hint="armchairLbl"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_gravity="right"
+                android:padding="3dp"
+                android:gravity="center_vertical|right" />
+            <TextView
+                android:id="@+id/armchair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="armchair"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:padding="3dp" />
+
+        </TableRow>
+    </TableLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:background="#ffe9faff"
+        android:padding="3dp">
+
+        <TextView
+            android:id="@+id/patient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+            android:hint="patient"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:hint="duration"
+                android:numeric="integer"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:inputType="number"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="(minutes)"
+                android:id="@+id/minutesLbl"
+                android:layout_gravity="center"
+                android:singleLine="false"
+                android:gravity="center_vertical"
+                android:password="false"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/macro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/duration"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+
+</LinearLayout>
