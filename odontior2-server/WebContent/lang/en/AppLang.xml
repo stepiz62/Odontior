@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ 	Copyright (c) 2015, Stefano Pizzocaro. All rights reserved. Use is subject to license terms.
+	
+	This file is part of Odontior 2.0.
+	
+	Odontior 2.0 is free software: you can redistribute it and/or modify
+	it under the terms of the GNU Lesser General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+	
+	Odontior 2.0 is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU Lesser General Public License for more details.
+	
+	You should have received a copy of the GNU Lesser General Public License
+	along with Odontior 2.0.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<lang>
+	<EditRecord>When the grid is enabled, double click to edit the record on the selected row</EditRecord>
+	<DragToOrganizer>Click on a row, drag and drop on the Organizer to build an appointment at a specified day, time, and armchair</DragToOrganizer>
+	<DragToWaitlist>Click on a row, drag and drop on the Waiting list dialog to park an appointment as a queued event</DragToWaitlist>
+	<DragToBuildAppointment>Click on a row, drag and drop on the Organizer or Appointment Dialog to build an appointment</DragToBuildAppointment>
+	<DragToBuildQueuedEvt>Click on a row, drag and drop on the Waiting list dialog to build a queued event</DragToBuildQueuedEvt>
+	<DoubleClkToAdd>In editing, double click a row to add the item</DoubleClkToAdd>
+	<DoubleClkToRemove>In editing, double click a row to remove the item</DoubleClkToRemove>
+	<ExistAlreadyAppoinIn_W>Intervention already existing in a queued event in the Waiting List</ExistAlreadyAppoinIn_W>
+	<ExistAlreadyAppoinIn_O>Intervention already existing in an appointment of the Organizer</ExistAlreadyAppoinIn_O>
+	<Patients>Patients</Patients>
+	<Customers>Customers</Customers>
+	<InsuranceCompanies>Insurance Companies</InsuranceCompanies>
+	<Practitioners>Practitioners</Practitioners>
+	<Organizer>Organizer</Organizer>
+	<WaitingList>Waiting list</WaitingList>
+	<Treatments>Treatments</Treatments>
+	<Invoices>Invoices</Invoices>
+	<Estimates>Estimates</Estimates>
+	<Armchairs>Armchairs</Armchairs>
+	<SetLastInvoiceNumber>Set last invoice number</SetLastInvoiceNumber>
+	<DigitLastInvoiceNumber><![CDATA[<html><p>Digit the number (greater than or equal to zero)</p><p>you wish the system consider as</p><p>the last generated invoice number !</p></html>]]></DigitLastInvoiceNumber>
+	<InvalidNumber>Invalid number !</InvalidNumber>
+	<Reports>Reports</Reports>
+	<NegativeDurationNoSense>A negative value for duration makes no sense !</NegativeDurationNoSense>
+	<Time>Time</Time>
+	<Date>Date</Date>
+	<Seat>Seat</Seat>
+	<Patient>Patient</Patient>
+	<Browse>Browse</Browse>
+	<Intervention>Intervention</Intervention>
+	<Duration>Duration</Duration>
+	<Macro>Macro</Macro>
+	<AutoCalc>Auto calc.</AutoCalc>
+	<Sum>Sum</Sum>
+	<Add>Add</Add>
+	<Note>Note</Note>
+	<Clear>Clear</Clear>
+	<IntervImmediateEffect>Interventions (changes to the list are immediately effective)</IntervImmediateEffect>
+	<Practitioner>Practitioner</Practitioner>
+	<Details>Details</Details>
+	<Appointment>Appointment</Appointment>
+	<Appointments>Appointments</Appointments>
+	<Name>Name</Name>
+	<Description>Description</Description>
+	<ListOf>List of</ListOf>
+	<ClinicalCard>Clinical card</ClinicalCard>
+	<Context>context</Context>
+	<ContextSelection>Selection of the context</ContextSelection>
+	<ViewCardDescr>View card descriptor</ViewCardDescr>
+	<List>List</List>
+	<AvailableItemsInv>Available items for invoicing</AvailableItemsInv>
+	<InterventionDetails>Intervention details</InterventionDetails>
+	<AvailableUntilNoexch>Available until no item is exchanged !</AvailableUntilNoexch>
+	<Insurances>Insurances</Insurances>
+	<Title>Title</Title>
+	<FirstName>First name</FirstName>
+	<LastName>Last name</LastName>
+	<Address>Address</Address>
+	<ZipCode>Zip code</ZipCode>
+	<City>City</City>
+	<Country>Country</Country>
+	<MobilePhone>Mobile phone</MobilePhone>
+	<Email>e.mail</Email>
+	<TaxCode>Tax code</TaxCode>
+	<HomePhone>Home phone</HomePhone>
+	<WorkPhone>Work phone</WorkPhone>
+	<State>State</State>
+	<Timestamp>Timestamp</Timestamp>
+	<Image>Image</Image>
+	<Phone>Phone</Phone>
+	<ReimbursementPlans>Reimbursement plans</ReimbursementPlans>
+	<Group>Group</Group>
+	<Company>Company</Company>
+	<Type>Type</Type>
+	<Supervisor>Supervisor</Supervisor>
+	<ContactPhone>Contact phone</ContactPhone>
+	<SinceDate>Since date</SinceDate>
+	<Contact>Contact</Contact>
+	<ReimbursementPlan>Reimbursement plan</ReimbursementPlan>
+	<Start>Start</Start>
+	<End>End</End>
+	<BenefitPeriod>Benefit period</BenefitPeriod>
+	<AmountAlreadySpent>Amount already spent</AmountAlreadySpent>
+	<MaxAmount>Max amount</MaxAmount>
+	<Deductible>Deductible</Deductible>
+	<Percentage>Percentage</Percentage>
+	<FriendlyName>Friendly name</FriendlyName>
+	<OpenAllAsTiles>Open all as tiles</OpenAllAsTiles>
+	<Price>Price</Price>
+	<ExecutionTime>Execution time</ExecutionTime>
+	<DiagnosisTime>Diagnosis time</DiagnosisTime>
+	<Treatment>Treatment</Treatment>
+	<Number>Number</Number>
+	<Customer>Customer</Customer>
+	<Items>Items</Items>
+	<Cost>Cost</Cost>
+	<Amount>Amount</Amount>
+	<TaxRatedExtraAmount>Tax rated extra amount</TaxRatedExtraAmount>
+	<NonTaxRatedExtraAmount>Non tax rated extra amount</NonTaxRatedExtraAmount>
+	<TaxRate>TaxRate</TaxRate>
+	<Insurance>Insurance</Insurance>
+	<AlreadySpent>Already spent</AlreadySpent>
+	<ListOfRelatedCustomers>List of related Customers</ListOfRelatedCustomers>
+	<RelatedCustomer>Related customer</RelatedCustomer>
+	<CustomerDetails>Customer details</CustomerDetails>
+	<RelatedPatients>Related patients</RelatedPatients>
+	<DOB>Date of birth</DOB>
+	<ClinicalCards>Clinical cards</ClinicalCards>
+	<QueuedEvents>Queued events</QueuedEvents>
+	<RelatedInvoicesV>Related invoices (view)</RelatedInvoicesV>
+	<Descriptors>Descriptors</Descriptors>
+	<Unified>Unified</Unified>
+	<Data>Data</Data>
+	<Text>Text</Text>
+	<Subject>Subject</Subject>
+	<Symbol>Symbol</Symbol>
+	<DefaultPrice>Default price</DefaultPrice>
+	<MaxPrice>Max price</MaxPrice>
+	<DefDuration>Def. duration (m.)</DefDuration>
+	<ToothTreatment>Tooth treatment</ToothTreatment>
+	<GeneralTreatment>General treatment</GeneralTreatment>
+	<Any>Any</Any>
+	<ManageCustomer>Manage customer</ManageCustomer>
+	<ManagePatient>Manage patient</ManagePatient>
+	<IsThePatient>Is the patient</IsThePatient>
+	<Oneself>Oneself</Oneself>
+	<Male>Male</Male>
+	<Female>Female</Female>
+	<TodayOnward>Only from today onward</TodayOnward>
+	<Quadrant>Quadr.</Quadrant>
+	<Executed>Exec.</Executed>
+	<Unexecuted>Un-exe.</Unexecuted>
+	<Images>Images</Images>
+	<CardN>Card N.</CardN>
+	<Since>Since</Since>
+	<Tooth>Tooth</Tooth>
+	<ToPatientAs>To patient as</ToPatientAs>
+	<Relationship>Relationship</Relationship>
+	<Done>Done</Done>
+	<TrtSymbol>Trt. symbol</TrtSymbol>
+	<ContextTooth>Context/tooth</ContextTooth>
+	<CustomerPosition>Customer position</CustomerPosition>
+	<Reimbursement>Reimbursement</Reimbursement>
+	<Patient_s>Patient(s)</Patient_s>
+	<Opened>Opened on</Opened>
+	<Closed>Closed on</Closed>
+	<ClinicalData>Clinical data</ClinicalData>	
+	<CommercialData>Commercial data</CommercialData>
+	<MainData>Main data</MainData>
+	<RelatedCustomers>Related customers</RelatedCustomers>
+	<ReservedNotes>Reserved notes</ReservedNotes>
+	<OpenDetails>Open details</OpenDetails>
+	<GoTo>Go to</GoTo>
+	<Back>Back</Back>
+	<Today>Today</Today>
+	<CustomersEstimates>Customer's estimates</CustomersEstimates>
+	<CustomersInvoices>Customer's invoices</CustomersInvoices>
+	<PatientsInvoices>Patient's invoices</PatientsInvoices>
+	<InsuranceCompanyDetails>Insurance Company details</InsuranceCompanyDetails>
+	<PatientDetails>Patient details</PatientDetails>
+	<PersonSearcher>Person searcher</PersonSearcher>
+	<Armchair>Armchair</Armchair>
+	<Interventions>Interventions</Interventions>
+	<Navigator>Navigator</Navigator>
+	<Print>Render</Print>
+	<FeedWaitlistFromOrganizerOrCCards>Drag and drop here appointments from the Organizer or interventions from a Clinical card</FeedWaitlistFromOrganizerOrCCards>
+	<DurationExceeds>There is no room available for the duration of the intervention-s !</DurationExceeds>
+	<PatientCannotBeAnyWhere>A patient cannot be in more than one place at the same time !</PatientCannotBeAnyWhere>
+	<PractitionerCannotBeAnyWhere>A practitioner cannot be in more than one place at the same time !</PractitionerCannotBeAnyWhere>
+	<InterventionUniqueness>An intervention cannot be registered in more than one appointment !</InterventionUniqueness>
+	<TimeSlotEngaged>Time slot engaged ! &#xD;&#xA;&#xD;&#xA;(In order to edit/delete the underlying appointment act on the first row)</TimeSlotEngaged>
+	<NoArmchairDefined>No armchair defined. Provide at least one armchair definition ('administrators' role is required) !</NoArmchairDefined>
+	<PatientAsCustomerExists>The patient's occurrence as customer is already present in the set of customers !</PatientAsCustomerExists>
+	<WantPatientAsCustomer>The program will search a customer occurrence with the same name of the patient.&#xD;&#xA;If found it will be selected else the customer form will be opened for the creation of it.&#xD;&#xA;&#xD;&#xA;Do you wish to continue ?</WantPatientAsCustomer>
+	<TeethNaming>Teeth naming</TeethNaming>
+	<Quadrants>Quadrants</Quadrants>
+	<NameQuadrants>Quadrants naming</NameQuadrants>
+	<WantDelAppInterv>Do you want to delete the intervention from the appointment ?</WantDelAppInterv>
+	<WantDelAppIntervs>All the interventions defined in the appointment will be deleted ! Are you sure you want to continue ?</WantDelAppIntervs>
+	<NoControllableAppointment>The appointment is not manageable from Odontior Mobile</NoControllableAppointment>
+	<Day>Day</Day>
+	<Minutes>minutes</Minutes>
+	<Sex>sex</Sex>
+	<ChooseOneOpt>Choose one option among '%1$s'</ChooseOneOpt>
+	<NoChange>No data modification was performed in the form !</NoChange>
+</lang>

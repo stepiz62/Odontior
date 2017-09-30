@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/odontiordb?noAccessToProcedureBodies=true" username="admin" password="JotyAdmin"
+		name="jdbc/myMySql" auth="Container" type="javax.sql.DataSource"
+		testWhileIdle="true" testOnBorrow="true" testOnReturn="false"
+		validationQuery="SELECT 1 from dual" validationInterval="30000"
+		timeBetweenEvictionRunsMillis="30000" maxActive="100" minIdle="10"
+		maxWait="10000" jmxEnabled="false" alternateUsernameAllowed="true"
+		factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" logAbandoned="true"
+		removeAbandonedTimeout="600" removeAbandoned="true" initialSize="2"
+		minEvictableIdleTimeMillis="30000"
+		jdbcInterceptors="org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;
+            				org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer" />
+</Context>
