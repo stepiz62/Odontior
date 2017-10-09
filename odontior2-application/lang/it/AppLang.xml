@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ 	Copyright (c) 2015, Stefano Pizzocaro. All rights reserved. Use is subject to license terms.
+	
+	This file is part of Odontior 2.0.
+	
+	Odontior 2.0 is free software: you can redistribute it and/or modify
+	it under the terms of the GNU Lesser General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+	
+	Odontior 2.0 is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU Lesser General Public License for more details.
+	
+	You should have received a copy of the GNU Lesser General Public License
+	along with Odontior 2.0.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<lang>
+	<EditRecord>Doppio click per modificare il record alla riga selezionata</EditRecord>
+	<DragToOrganizer>Clicca sulla riga e trascina sull'Agenda per costruire un appuntamento ad una specifica data, ora e poltrona</DragToOrganizer>
+	<DragToWaitlist>Clicca sulla riga e trascina sulla lista d'attesa per parcheggiare un appuntamento in una ben precisa posizione della coda</DragToWaitlist>
+	<DragToBuildAppointment>Clicca sulla riga e trascina sull'Agenda o sulla finestra di Appuntamento per costruire un appuntamento</DragToBuildAppointment>
+	<DragToBuildQueuedEvt>Clicca sulla riga e trascina sulla lista d'attesa per costruire un evento accodato</DragToBuildQueuedEvt>
+	<DoubleClkToAdd>Nello stato di modifica fai un doppio click su una riga per aggiungere la voce corrispondente</DoubleClkToAdd>
+	<DoubleClkToRemove>Nello stato di modifica fai un doppio click su una riga per rimuovere la voce corrispondente</DoubleClkToRemove>
+	<ExistAlreadyAppoinIn_W>L'intervento è già presente in un evento accodato nella lista di attesa</ExistAlreadyAppoinIn_W>
+	<ExistAlreadyAppoinIn_O>L'intervento è già presente in un appuntamento dell'Agenda</ExistAlreadyAppoinIn_O>
+	<Patients>Pazienti</Patients>
+	<Customers>Clienti</Customers>
+	<InsuranceCompanies>Compagnie assicurative</InsuranceCompanies>
+	<Practitioners>Operatori</Practitioners>
+	<Organizer>Agenda</Organizer>
+	<WaitingList>Lista d'attesa</WaitingList>
+	<Treatments>Trattamenti</Treatments>
+	<Invoices>Fatture</Invoices>
+	<Estimates>Preventivi</Estimates>
+	<Armchairs>Poltrone</Armchairs>
+	<SetLastInvoiceNumber>Imposta l'ultimo numero di fattura</SetLastInvoiceNumber>
+	<DigitLastInvoiceNumber><![CDATA[<html><p>Digita il numero (maggiore o uguale a zero)</p><p>che desideri che il sistema consideri come </p><p>l'ultimo numero di fattura generato !</p></html>]]></DigitLastInvoiceNumber>
+	<InvalidNumber>Numero non valido !</InvalidNumber>
+	<Reports>Report</Reports>
+	<NegativeDurationNoSense>Un valore negativo per la durata non ha senso !</NegativeDurationNoSense>
+	<Time>Ora</Time>
+	<Date>Data</Date>
+	<Seat>Posto</Seat>
+	<Patient>Paziente</Patient>
+	<Browse>Sfoglia</Browse>
+	<Intervention>Intervento</Intervention>
+	<Duration>Durata</Duration>
+	<Macro>Macro</Macro>
+	<AutoCalc>Auto calc.</AutoCalc>
+	<Sum>Somma</Sum>
+	<Add>Agg.</Add>
+	<Note>Note</Note>
+	<Clear>Cancella</Clear>
+	<IntervImmediateEffect>Interventi (le modifiche a questa lista hanno effetto immediato)</IntervImmediateEffect>
+	<Practitioner>Operatore</Practitioner>
+	<Details>Dettagli</Details>
+	<Appointment>Appuntamento</Appointment>
+	<Appointments>Appuntamenti</Appointments>
+	<Name>Nome</Name>
+	<Description>Descrizione</Description>
+	<ListOf>Lista</ListOf>
+	<ClinicalCard>Cartella clinica</ClinicalCard>
+	<Context>Contesto</Context>
+	<ContextSelection>Selezione del contesto</ContextSelection>
+	<ViewCardDescr>Vedi il descrittore</ViewCardDescr>
+	<List>Lista</List>
+	<AvailableItemsInv>Voci da fatturare</AvailableItemsInv>
+	<InterventionDetails>Dettagli di intervento</InterventionDetails>
+	<AvailableUntilNoexch>Disponibile finchè non si fanno modifiche !</AvailableUntilNoexch>
+	<Insurances>Assicurazioni</Insurances>
+	<Title>Titolo</Title>
+	<FirstName>Nome</FirstName>
+	<LastName>Cognome</LastName>
+	<Address>Indirizzo</Address>
+	<ZipCode>Codice postale</ZipCode>
+	<City>Città</City>
+	<Country>Paese</Country>
+	<MobilePhone>Cellulare</MobilePhone>
+	<Email>e.mail</Email>
+	<TaxCode>Imposta</TaxCode>
+	<HomePhone>Telefono casa</HomePhone>
+	<WorkPhone>Telefono lavoro</WorkPhone>
+	<State>Provincia</State>
+	<Timestamp>Data e Ora</Timestamp>
+	<Image>Immagine</Image>
+	<Phone>Telefono</Phone>
+	<ReimbursementPlans>Piani di rimborso</ReimbursementPlans>
+	<ReimbursementPlan>Piano di rimborso</ReimbursementPlan>
+	<Group>Gruppo</Group>
+	<Company>Ente</Company>
+	<Type>Tipo</Type>
+	<Supervisor>Supervisore</Supervisor>
+	<ContactPhone>Contatto telefonico</ContactPhone>
+	<SinceDate>Data di iinizio</SinceDate>
+	<Contact>Contatto</Contact>
+	<Start>Inizio</Start>
+	<End>Fine</End>
+	<BenefitPeriod>Periodo di validità</BenefitPeriod>
+	<AmountAlreadySpent>Ammontare già consumato</AmountAlreadySpent>
+	<MaxAmount>Massima copertura</MaxAmount>
+	<Deductible>Franchigia</Deductible>
+	<Percentage>Percentuale</Percentage>
+	<FriendlyName>Nome di comodo</FriendlyName>
+	<OpenAllAsTiles>Apri e disponi tutte a matrice </OpenAllAsTiles>
+	<Price>Prezzo</Price>
+	<ExecutionTime>Ora di esecuzione</ExecutionTime>
+	<DiagnosisTime>Ora di diagnosi</DiagnosisTime>
+	<Treatment>Trattamento</Treatment>
+	<Number>Numero</Number>
+	<Customer>Cliente</Customer>
+	<Items>voci</Items>
+	<Cost>Costo</Cost>
+	<Amount>Ammontare</Amount>
+	<TaxRatedExtraAmount>Extra soggetto a imposta</TaxRatedExtraAmount>
+	<NonTaxRatedExtraAmount>Extra non soggetto a imposta</NonTaxRatedExtraAmount>
+	<TaxRate>Imposta</TaxRate>
+	<Insurance>Assicurazione</Insurance>
+	<AlreadySpent>Già consumato</AlreadySpent>
+	<ListOfRelatedCustomers>Clienti in relazione</ListOfRelatedCustomers>
+	<RelatedCustomer>Cliente correlato</RelatedCustomer>
+	<CustomerDetails>Dettagli del Cliente</CustomerDetails>
+	<RelatedPatients>Relativi pazienti</RelatedPatients>
+	<DOB>Data di nascita</DOB>
+	<ClinicalCards>Cartelle cliniche</ClinicalCards>
+	<QueuedEvents>Eventi accodati</QueuedEvents>
+	<RelatedInvoicesV>Fatture relative (vista)</RelatedInvoicesV>
+	<Descriptors>Descrittori</Descriptors>
+	<Unified>Unificata</Unified>
+	<Data>Dati</Data>
+	<Text>Testo</Text>
+	<Subject>Oggetto</Subject>
+	<Symbol>Simbolo</Symbol>
+	<DefaultPrice>Prezzo predefinito</DefaultPrice>
+	<MaxPrice>Prezzo max.</MaxPrice>
+	<DefDuration>Durata predef. (m)</DefDuration>
+	<ToothTreatment>Trattamento sul dente</ToothTreatment>
+	<GeneralTreatment>Trattamento generale</GeneralTreatment>
+	<Any>Qualsiasi</Any>
+	<ManageCustomer>Gestione cliente</ManageCustomer>
+	<ManagePatient>Gestione paziente</ManagePatient>
+	<IsThePatient>E' il/la paziente</IsThePatient>
+	<Oneself>Se stesso/a</Oneself>
+	<Male>Maschio</Male>
+	<Female>Femmina</Female>
+	<TodayOnward>Solo da oggi in poi</TodayOnward>
+	<Quadrant>Quadr.</Quadrant>
+	<Executed>Eseg.</Executed>
+	<Unexecuted>Non es.</Unexecuted>
+	<Images>Immagini</Images>
+	<CardN>Cart. N.</CardN>
+	<Since>Da</Since>
+	<Tooth>Dente</Tooth>
+	<ToPatientAs>Sta al paziente come</ToPatientAs>
+	<Relationship>Relazione</Relationship>
+	<Done>Fatto</Done>
+	<TrtSymbol>Sigla tr.</TrtSymbol>
+	<ContextTooth>Contesto/dente</ContextTooth>
+	<CustomerPosition>Posizione del cliente</CustomerPosition>
+	<Reimbursement>Rimborso</Reimbursement>
+	<Patient_s>Paziente-i</Patient_s>
+	<Opened>Aperta il</Opened>
+	<Closed>Chiusa il</Closed>
+	<ClinicalData>Dati clinici</ClinicalData>	
+	<CommercialData>Dati commerciali</CommercialData>
+	<MainData>Dati principali</MainData>
+	<RelatedCustomers>Clienti correlati</RelatedCustomers>
+	<ReservedNotes>Note riservate</ReservedNotes>
+	<OpenDetails>Apri dettagli</OpenDetails>
+	<GoTo>Vai a</GoTo>
+	<Back>Indietro</Back>
+	<Today>Oggi</Today>
+	<CustomersEstimates>Preventivi del cliente</CustomersEstimates>
+	<CustomersInvoices>Fatture del cliente</CustomersInvoices>
+	<PatientsInvoices>Fatture sul paziente</PatientsInvoices>
+	<InsuranceCompanyDetails>Dettagli della compagnia assicurativa</InsuranceCompanyDetails>
+	<PatientDetails>Dettagli dl paziente</PatientDetails>
+	<PersonSearcher>Ricerca persone</PersonSearcher>
+	<Armchair>Poltrona</Armchair>
+	<Interventions>Interventi</Interventions>
+	<Navigator>Navigatore</Navigator>
+	<Print>Documento</Print>
+	<FeedWaitlistFromOrganizerOrCCards>Trascina qui appuntamenti dall'Agenda o interventi da una Cartella clinica</FeedWaitlistFromOrganizerOrCCards>
+	<DurationExceeds>Non c'è abbastanza tempo disponibile per la durata dell'intervento-i !</DurationExceeds>
+	<PatientCannotBeAnyWhere>Un paziente non può essere contemporaneamente in posti differenti !</PatientCannotBeAnyWhere>
+	<PractitionerCannotBeAnyWhere>Un operatore non può essere contemporaneamente in posti differenti !</PractitionerCannotBeAnyWhere>
+	<InterventionUniqueness>An intervention cannot be registered in more than one appointment !</InterventionUniqueness>
+	<TimeSlotEngaged>Orario occupato ! &#xD;&#xA;&#xD;&#xA;(Per modificare o eliminare l'appuntamento agire sulla la prima riga)</TimeSlotEngaged>
+	<NoArmchairDefined>Nessuna poltrona definita. Definire almeno una poltrona (operazione che richiede il ruolo di amministratore di applicazione) !</NoArmchairDefined>
+	<PatientAsCustomerExists>L'occorrenza del paziente come cliente è già presente nell'insieme dei clienti !</PatientAsCustomerExists>
+	<WantPatientAsCustomer>Il programma cercherà un'occorrenza di cliente con lo stesso nome del paziente.&#xD;&#xA;Se trovata essa verra automaticamente selezionata altrimenti verrà aperta la maschera clienti per la sua creazione.&#xD;&#xA;&#xD;&#xA;Vuoi continuare ?</WantPatientAsCustomer>
+	<TeethNaming>Denominazione denti</TeethNaming>
+	<Quadrants>Quadranti</Quadrants>
+	<NameQuadrants>Denomin. quadranti</NameQuadrants>
+	<WantDelAppInterv>Vuoi eliminare l'intervento dall'appuntamento ?</WantDelAppInterv>
+	<WantDelAppIntervs>Tutti gli interventi definiti nell'appuntamento verranno eliminati ! Si è sicuri di voler procedere ?</WantDelAppIntervs>
+	<NoControllableAppointment>L'appuntamento non è gestibile da Odontior Mobile</NoControllableAppointment>
+	<Day>Giorno</Day>
+	<Minutes>minuti</Minutes>
+	<Sex>Sesso</Sex>
+	<ChooseOneOpt>Selezionare una opzione tra '%1$s'</ChooseOneOpt>
+	<NoChange>Non è stato modificato alcun campo nella maschera !</NoChange>
+</lang>

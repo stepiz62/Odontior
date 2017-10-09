@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ 	Copyright (c) 2015, Stefano Pizzocaro. All rights reserved. Use is subject to license terms.
+	
+	This file is part of Joty 2.0.
+	
+	Joty 2.0 is free software: you can redistribute it and/or modify
+	it under the terms of the GNU Lesser General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+	
+	Joty 2.0 is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU Lesser General Public License for more details.
+	
+	You should have received a copy of the GNU Lesser General Public License
+	along with Joty 2.0.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<lang>
+	<FillTextFields>Riempi tutti i campi !</FillTextFields>
+	<NewPwdMustDef>Deve essere inserita una nuova password !</NewPwdMustDef>
+	<AppExiting>Il programma terminerà !</AppExiting>
+	<UserNotFound>Utente non trovato !</UserNotFound>
+	<PwdNotChanged>Modifica password fallita !</PwdNotChanged>
+	<ActionSuccess>L'azione si è completata con successo !</ActionSuccess>
+	<PwdCheckNotPossible>Verifica password non possibile !</PwdCheckNotPossible>
+	<WrongUserOrPwd>Nome utente o password errati !</WrongUserOrPwd>
+	<PleaseStartAgain>Il programma terminerà.&#xD;&#xA;&#xD;&#xA;Prego, avviarlo di nuovo !</PleaseStartAgain>
+	<WrongOldPwd>Vecchia password non corretta !</WrongOldPwd>
+	<NewPwdNotRepeated>Nuova password non ripetuta correttamente !</NewPwdNotRepeated>
+	<AdminsDelImpossible>Non è possibile eliminare il ruolo 'Admins' !</AdminsDelImpossible>
+	<PwdNeeded>Deve essere specificata la password !</PwdNeeded>
+	<AdminDelImpossible>Non è possibile eliminare l'utente 'Admin' !</AdminDelImpossible>
+	<SessionExpMustLogon>La sessione è scaduta: devi autenticarti nuovamente !</SessionExpMustLogon>
+	<NowIsPossible>Ora puoi ripetere il comando !</NowIsPossible>
+	<EmptyBlob>Nessun contenuto !</EmptyBlob>
+	<DbmsConstrViolationUpdate>Non è possibile inserire/modificare dati per vincoli sussistenti sui dati medesimi !</DbmsConstrViolationUpdate>
+	<DbmsConstrViolationDelete>Non è possibile eliminare dati per l'esistenza di dati dipententi !</DbmsConstrViolationDelete>
+	<AccessDenied>Permesso negato !</AccessDenied>
+	<FirstSheetFirst>Va prima compilato il primo lembo !</FirstSheetFirst>
+	<EnterEdit>Entra nel modo di modifica !</EnterEdit>
+	<TermAlreadyPresent>Voce già presente !</TermAlreadyPresent>
+	<TermAlreadyDefined>La voce ha già un valore !</TermAlreadyDefined>
+	<TermAlreadyAssigned>Il valore è già assegnato ad un'altra locazione !</TermAlreadyAssigned>
+	<UseEmbeddedCloseBtn>Usa il pulsante di chiusura dedicato !</UseEmbeddedCloseBtn>
+	<NoDataSheetAccessible>Nessun lembo è accessibile !</NoDataSheetAccessible>
+	<FirstSheetMustBeAccessible>Il primo lembo deve risultare accessibile perchè si possa accedere alla maschera nel suo complesso !</FirstSheetMustBeAccessible>
+	<ColNotSortable>Non è possibile ordinare per questa colonna !</ColNotSortable>
+	<GridNotSortable>Griglia non riordinabile</GridNotSortable>
+	<CertAuthNotPossible>L'autenticazione del certificato non è stata possibile !</CertAuthNotPossible>
+	<LeaveAuthExit>Rinunciare all'autenticazione significa uscire dal programma: vuoi uscire ?</LeaveAuthExit>
+	<KeepAppRunning>Vuoi rimanere nel programma (non consigliato) ?</KeepAppRunning>
+	<WantReconnect>La connessione al database potrebbe essersi interrota : vuoi riconnetterti ?</WantReconnect>
+	<WantDelBlob>Vuoi veramente eliminare l'oggetto binario archiviato nel database ?</WantDelBlob>
+	<Document>documento</Document>
+	<WantExitApp>Vuoi uscire dal programma ?</WantExitApp>
+	<DeletionGoingOn>Tutti i dati relativi al valore correntemente selezionato saranno eliminati: vuoi continuare con la selezione ?</DeletionGoingOn>
+	<WantDelCertFromTrusted>Vuoi veramente eliminare il certificato attualmente salvato localmente ?</WantDelCertFromTrusted>
+	<SelfCertAllowance>Il server è identificato dal certificato sotto indicato che risulta riconosciuto da una autorità non registrata (è un certificato garante di se stesso). Vuoi continuare con questo server ?</SelfCertAllowance>
+	<AddCertToTrustedList>Vuoi salvare questo certificato localmente ?</AddCertToTrustedList>
+	<MustNotBeEmpty>Il campo non può essere vuoto !</MustNotBeEmpty>
+	<MustBeNonZero>Il valore non può mancare o essere zero !</MustBeNonZero>
+	<MustBeSelected>Specifica un valore !</MustBeSelected>
+	<MustBeSelectedOne>Almeno un valore deve essere selezionato !</MustBeSelectedOne>
+	<WantToSave>Il cambiamento del contesto richiederà il salvataggio dei dati modificati. Vuoi continuare ?</WantToSave>
+	<NeedToSave>I dati devono essere salvati prima del cambio di lembo !</NeedToSave>
+	<NoDataToDelete>Nessun dato da eliminare !</NoDataToDelete>
+	<WantToDelete>Sei sicuro/a di voler eliminare questo/a %1$s ?</WantToDelete>
+	<ItemToDelete>Voce</ItemToDelete>
+	<WantDeleteWholeDoc>Vuoi veramente eliminare l'intero documento ?</WantDeleteWholeDoc>
+	<InvalidDate>Data non valida !</InvalidDate>
+	<NumberExceeding>L'intero eccede il limite definito !</NumberExceeding>
+	<NoTransaction>La transazione non è stata eseguita !</NoTransaction>
+	<BinaryEditNeedsRec>Il record deve esistere e non si deve essere nello stato di modifica perchè si possa avere accesso all'oggetto binario !</BinaryEditNeedsRec>
+	<LoadingData>Caricamento dati</LoadingData>
+	<InitializingRepEngineMsg>Il motore di report stà elaborando o inizializzandosi</InitializingRepEngineMsg>
+	<NotSortableInEditing>Non è possibili riordinare i dati in griglia stando nello stato di modifica !</NotSortableInEditing>
+	<NotSortingInQueue>Il riordino non ha senso in una coda !</NotSortingInQueue>
+	<NoFieldToSortBy>Nessun campo di database è definito su questa colonna ! Nessun ordinamento è possibile.</NoFieldToSortBy>
+	<LBL_NEW>Nuovo</LBL_NEW>
+	<LBL_MNG>Modifica</LBL_MNG>
+	<LBL_DEL>Elimina</LBL_DEL>
+	<LBL_SAVE>Salva</LBL_SAVE>
+	<LBL_NEXT>Successivo</LBL_NEXT>
+	<LBL_PREV>Precedente</LBL_PREV>
+	<LBL_CNC>Annulla</LBL_CNC>
+	<LBL_OK>Ok</LBL_OK>
+	<LBL_EXIT>Esci</LBL_EXIT>
+	<LBL_HOME>Menu principale</LBL_HOME>
+	<LBL_OPEN>Apri</LBL_OPEN>
+	<LBL_UPLD>Carica</LBL_UPLD>
+	<LBL_DNLD>Scarica</LBL_DNLD>
+	<LBL_NEXT2>Succ.</LBL_NEXT2>
+	<LBL_PREV2>Prec.</LBL_PREV2>
+	<LBL_SEARCH>Cerca</LBL_SEARCH>
+	<LBL_SELECT>Seleziona</LBL_SELECT> 
+	<LBL_Explode>Nascondi il record</LBL_Explode>
+	<LBL_Implode>Mostra il record</LBL_Implode>
+	<PwdChange>Modifica password</PwdChange>
+	<OldPwd>Vecchia password</OldPwd>
+	<NewPwd>Nuova password</NewPwd>
+	<RepeatNewPwd>Ripeti la nuova password</RepeatNewPwd>
+	<Login>Login</Login>
+	<UserName>Nome utente</UserName>
+	<Password>Password</Password>
+	<Roles>Ruoli</Roles>
+	<Name>Nome</Name>
+	<Description>Description</Description>
+	<Users>Utenti</Users>
+	<SetPwd>Imposta password</SetPwd>
+	<FirstName>Nome</FirstName>
+	<LastName>Cognome</LastName>
+	<ReqPwdChange>Richiedi il cambio passowrd al primo accesso</ReqPwdChange>
+	<Research>Ricerca</Research>
+	<Manage>Gestione del record</Manage>
+	<Criteria>Criteria di ricerca</Criteria>
+	<SearchResult>Resultati della ricerca</SearchResult>
+	<WindowsMenu>Finestre</WindowsMenu>
+	<FileMenu>File</FileMenu>
+	<ViewMenu>Vista</ViewMenu>
+	<AuthMenu>Autorizzazione</AuthMenu>
+	<ToolsMenu>Strumenti</ToolsMenu>
+	<Languages>Lingua</Languages>
+	<Viewer>Visualizzatore di immagini</Viewer>
+	<SelFileToUpload>Seleziona il file da caricare</SelFileToUpload>
+	<SelTargetDir>Seleziona la cartella di destinazione</SelTargetDir>
+	<DnldPreDialogTitle>Vuoi anteporre come prefisso del nome il titolo della finestra ?</DnldPreDialogTitle>
+	<MainFloating>Quadro di applicazione come barra</MainFloating>
+	<ChangePwd>Cambio password</ChangePwd>
+	<RolesPanel>Ruoli</RolesPanel>
+	<UserPanel>Utenti</UserPanel>
+	<CloseAllW>Chiudi tutte</CloseAllW>
+	<ViewerAction1>- Ctrl T per avere tutti i visualizzatori di immagine (aperti per il campo) disposti a matrice </ViewerAction1>
+	<ViewerAction2>- Ctrl R per avere tutti i visualizzatori di immagine (aperti per il campo) ripristinati alla loro posizione e dimensione originale</ViewerAction2>
+	<ViewerAction3>- Trascina per scorrere</ViewerAction3>
+	<ViewerAction4>- Rotellina del mouse o Ctrl +/- to ingrandire/rimpicciolire</ViewerAction4>
+	<ViewerAction5>- Ctrl W  per chiudere tutti i visualizzatori di immagine (aperti per il campo)</ViewerAction5>
+	<ViewersAsTiles>Disponi a matrice tutti visualizzatori di immagine (aperti per il campo)</ViewersAsTiles>
+	<ViewersRestore>Ripristina alla loro posizione e dimensione originale tutti i visualizzatori di immagine (aperti per il campo)</ViewersRestore>
+	<ViewersClose>Chiudi tutti i visualizzatori di immagine (aperti per il campo)</ViewersClose>
+	<Interrupt>Interrompi</Interrupt>
+	<ExtendedToAll>Vuoi che l'azione '%1$s' sia applicata all'intero insieme della lista ?</ExtendedToAll>
+	<ActionIsRunning>... L'azione '%1$s' è in corso di esecuzione ...</ActionIsRunning>
+	<DialogBusy>La finestra è occupata</DialogBusy>
+	<AtMostXChars>Per questo campo sono consentiti al massimo %s caratteri !</AtMostXChars>
+	<OptionAcquired>%s è stato/a acquisito/a. Avrà effetto al prossimo avvio del programma !</OptionAcquired>
+	<SharingKeyLBL>ID globale</SharingKeyLBL>
+	<EditAddDetails>Fai un doppio click per modificare o aggiungere un record di dettaglio</EditAddDetails>
+	<DragUpAndDown>Seleziona una riga e trascinala verso l'alto o verso il basso per cambiarne la posizione nella lista</DragUpAndDown>
+	<Calendar>Calendario</Calendar>
+	<Sunday>Domenica</Sunday>
+	<Monday>Lunedì</Monday>
+	<Tuesday>Martedì</Tuesday>
+	<Wednesday>Mercoledì</Wednesday>
+	<Thurdsday>Giovedì</Thurdsday>
+	<Friday>Venerdì</Friday>
+	<Saturday>Sabato</Saturday> 
+	<January>Gennaio</January>
+	<February>Febbraio</February>
+	<March>Marzo</March>
+	<April>Aprile</April>
+	<May>Maggio</May>
+	<June>Giugno</June>
+	<July>Luglio</July>
+	<August>Agosto</August>
+	<September>Settembre</September>
+	<October>Ottobre</October>
+	<November>Novembre</November>
+	<December>Dicembre</December>
+	<SelectBirtFormat>Scegli il formato per il rendering</SelectBirtFormat>
+	<AppOptions>Impostazioni di applicazione</AppOptions>
+	<LocaleLiteral>Localizzazione</LocaleLiteral>
+	<LocaleUpdateEvent1>Operazione avvenuta con successo. GLi utenti attualmente connessi devono uscire e riconnetersi per vedere il cambio.</LocaleUpdateEvent1>
+	<LocaleUpdateEvent2>Il cambio effettuato non opera alcuna conversione degli importi inseriti nell'applicazione:</LocaleUpdateEvent2>
+	<LocaleUpdateEvent3>E' semplicemente un cambio di qualificatore di valuta per essi.</LocaleUpdateEvent3>
+	<EnableTooltips>Tooltips abilitati</EnableTooltips>
+ 	<DbmsUnreachable>Il server di database non è raggiungibile !</DbmsUnreachable>
+ 	<DbmsCreateUserFailed>La creazione dell'utente è fallita !</DbmsCreateUserFailed>
+ 	<DbmsCreateUserFailed2>Il nome utente potrebbe già esistere nel sistema. Prova con un altro nome utente !</DbmsCreateUserFailed2>
+ 	<DbmsCreateUserFailed3>Verificare il nome utente !</DbmsCreateUserFailed3>
+ 	<HelpMenu>Aiuto</HelpMenu>
+ 	<About>Info su %s</About>
+ 	<Version>versione %s</Version>
+ 	<BasedOn>Basato su :</BasedOn>
+	<ToolTipDirectSearch>Questa maschera esegue la ricerca contestualmente all'immissione di caratteri nei campi dei criteri</ToolTipDirectSearch>
+	<ToolTipNextOpening>La modifica sarà riscontrabile alle prossime aperture di finestra !</ToolTipNextOpening>
+	<ColEditable>Questa colonna è editabile (fai un 'click' sopra)</ColEditable>
+	<NotEditableWhenShared>Questa maschera non è editablie quando l'applicazione è 'condivisa' !</NotEditableWhenShared>
+	<SelectRowToManage>Seleziona una riga per gestire o vedere i dati del record relativo</SelectRowToManage>
+	<ChangeStationFontSize>Cambia la dimensione del carattere in questa postazione</ChangeStationFontSize>
+	<NewFontSize>La nuova dimensione per il font</NewFontSize>
+	<LangChoice>La scelta della lingua</LangChoice>
+	<PleaseUseNavig>Prego, usare i comandi di navigazione o di scelta !</PleaseUseNavig>
+	<NoData>Nessun dato !</NoData>
+	<Date>data</Date>
+</lang>
