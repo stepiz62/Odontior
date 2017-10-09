@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+"  codebase="http://localhost:8080/odontior2-server" href="odontior.jnlp">
+    <information>
+            <title>odontior</title>
+            <vendor>Stefano Pizzocaro</vendor>
+            <icon href="OdontiorIcon32.png" />
+    </information>
+    <resources>
+            <j2se version="1.7+" href="http://java.sun.com/products/autodl/j2se" />
+            <jar href="odontior2-application.jar" main="true" />
+    </resources>
+    <application-desc name="Odontior 2.0 Application"
+            main-class="org.odontior.OdontiorApp" />
+    <security>
+            <all-permissions/>
+    </security>
+</jnlp>
