@@ -201,7 +201,7 @@ public class InvoiceDataPanel extends Panel {
 					DataAccessDialog.tryCreate("CustomerDetailsDialog", parent.callContext());
 				}
 			});
-			btnCustomerDetails.setBounds(249, 20, 70, 23);
+			btnCustomerDetails.setBounds(229, 20, 90, 23);
 			add(btnCustomerDetails);
 		}
 

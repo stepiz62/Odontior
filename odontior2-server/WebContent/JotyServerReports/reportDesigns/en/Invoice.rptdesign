@@ -199,12 +199,6 @@
                     <text-property name="heading">number</text-property>
                 </structure>
                 <structure>
-                    <property name="columnName">sharingKey</property>
-                    <property name="analysis">dimension</property>
-                    <text-property name="displayName">sharingKey</text-property>
-                    <text-property name="heading">sharingKey</text-property>
-                </structure>
-                <structure>
                     <property name="columnName">taxcode</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">taxcode</text-property>
@@ -318,41 +312,36 @@
                     </structure>
                     <structure>
                         <property name="position">12</property>
-                        <property name="name">sharingKey</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">13</property>
                         <property name="name">taxcode</property>
                         <property name="dataType">string</property>
                     </structure>
                     <structure>
-                        <property name="position">14</property>
+                        <property name="position">13</property>
                         <property name="name">firstname</property>
                         <property name="dataType">string</property>
                     </structure>
                     <structure>
-                        <property name="position">15</property>
+                        <property name="position">14</property>
                         <property name="name">lastname</property>
                         <property name="dataType">string</property>
                     </structure>
                     <structure>
-                        <property name="position">16</property>
+                        <property name="position">15</property>
                         <property name="name">isThePatient</property>
                         <property name="dataType">integer</property>
                     </structure>
                     <structure>
-                        <property name="position">17</property>
+                        <property name="position">16</property>
                         <property name="name">customer_id</property>
                         <property name="dataType">integer</property>
                     </structure>
                     <structure>
-                        <property name="position">18</property>
+                        <property name="position">17</property>
                         <property name="name">firstname_18</property>
                         <property name="dataType">string</property>
                     </structure>
                     <structure>
-                        <property name="position">19</property>
+                        <property name="position">18</property>
                         <property name="name">lastname_19</property>
                         <property name="dataType">string</property>
                     </structure>
@@ -439,55 +428,48 @@
                 </structure>
                 <structure>
                     <property name="position">12</property>
-                    <property name="name">sharingKey</property>
-                    <property name="nativeName">sharingKey</property>
-                    <property name="dataType">string</property>
-                    <property name="nativeDataType">12</property>
-                </structure>
-                <structure>
-                    <property name="position">13</property>
                     <property name="name">taxcode</property>
                     <property name="nativeName">taxcode</property>
                     <property name="dataType">string</property>
                     <property name="nativeDataType">12</property>
                 </structure>
                 <structure>
-                    <property name="position">14</property>
+                    <property name="position">13</property>
                     <property name="name">firstname</property>
                     <property name="nativeName">firstname</property>
                     <property name="dataType">string</property>
                     <property name="nativeDataType">12</property>
                 </structure>
                 <structure>
-                    <property name="position">15</property>
+                    <property name="position">14</property>
                     <property name="name">lastname</property>
                     <property name="nativeName">lastname</property>
                     <property name="dataType">string</property>
                     <property name="nativeDataType">12</property>
                 </structure>
                 <structure>
-                    <property name="position">16</property>
+                    <property name="position">15</property>
                     <property name="name">isThePatient</property>
                     <property name="nativeName">isThePatient</property>
                     <property name="dataType">integer</property>
                     <property name="nativeDataType">5</property>
                 </structure>
                 <structure>
-                    <property name="position">17</property>
+                    <property name="position">16</property>
                     <property name="name">customer_id</property>
                     <property name="nativeName">customer_id</property>
                     <property name="dataType">integer</property>
                     <property name="nativeDataType">4</property>
                 </structure>
                 <structure>
-                    <property name="position">18</property>
+                    <property name="position">17</property>
                     <property name="name">firstname_18</property>
                     <property name="nativeName">firstname</property>
                     <property name="dataType">string</property>
                     <property name="nativeDataType">12</property>
                 </structure>
                 <structure>
-                    <property name="position">19</property>
+                    <property name="position">18</property>
                     <property name="name">lastname_19</property>
                     <property name="nativeName">lastname</property>
                     <property name="dataType">string</property>
@@ -495,10 +477,10 @@
                 </structure>
             </list-property>
             <xml-property name="queryText"><![CDATA[SELECT i.*, c.taxcode, c.firstname, c.lastname, pc.isThePatient, pc.customer_id, p.firstname pat_firstname, p.lastname pat_lastname
-FROM gentraco i
-INNER JOIN rapistucc pc ON pc.patcust_id = i.patientcustomer_id
-INNER JOIN ammotte c ON c.id = pc.customer_id
-INNER JOIN scavessa p ON p.id = pc.patient_id
+FROM invoice i
+INNER JOIN patientcustomer pc ON pc.patcust_id = i.patientcustomer_id
+INNER JOIN customer c ON c.id = pc.customer_id
+INNER JOIN patient p ON p.id = pc.patient_id
 WHERE i.id = ?
 ORDER BY DATE
 ]]></xml-property>
@@ -658,11 +640,11 @@ ORDER BY DATE
             <xml-property name="queryText"><![CDATA[SELECT ii.invoice_id, ii.id, tr.descr treatment, tth.symbol tooth, intrv.execution, intrv.price
 FROM (
 SELECT ii.*
-FROM piutracu ii 
+FROM invoiceitem ii 
 WHERE ii.invoice_id = ?) ii
-INNER JOIN cadregas intrv ON intrv.id = ii.intervention_id
-INNER JOIN essammova tth ON tth.id = intrv.tooth_id
-INNER JOIN guiccialenui tr ON tr.id = intrv.treatment_id		]]></xml-property>
+INNER JOIN intervention intrv ON intrv.id = ii.intervention_id
+INNER JOIN tooth tth ON tth.id = intrv.tooth_id
+INNER JOIN treatment tr ON tr.id = intrv.treatment_id		]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
   <Version>2.0</Version>
@@ -799,12 +781,6 @@ INNER JOIN guiccialenui tr ON tr.id = intrv.treatment_id		]]></xml-property>
         </oda-data-set>
         <joint-data-set name="Data Set" id="760">
             <list-property name="columnHints">
-                <structure>
-                    <property name="columnName">HeadData::sharingKey</property>
-                    <property name="alias">sharingKey</property>
-                    <property name="analysis">dimension</property>
-                    <text-property name="displayName">HeadData::sharingKey</text-property>
-                </structure>
                 <structure>
                     <property name="columnName">HeadData::ntre_descr</property>
                     <property name="alias">ntre_descr</property>
@@ -1239,12 +1215,6 @@ INNER JOIN guiccialenui tr ON tr.id = intrv.treatment_id		]]></xml-property>
                                 <text-property name="displayName">number</text-property>
                                 <expression name="expression" type="javascript">dataSetRow["number"]</expression>
                                 <property name="dataType">integer</property>
-                            </structure>
-                            <structure>
-                                <property name="name">sharingKey</property>
-                                <text-property name="displayName">sharingKey</text-property>
-                                <expression name="expression" type="javascript">dataSetRow["sharingKey"]</expression>
-                                <property name="dataType">string</property>
                             </structure>
                             <structure>
                                 <property name="name">taxcode</property>

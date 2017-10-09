@@ -93,7 +93,7 @@ public class ImagePanel extends NavigatorPanel {
 				imageTerm("image").openAllAsTiles();
 			}
 		});
-		m_btnOpenAllAs.setBounds(7, 322, 122, 23);
+		m_btnOpenAllAs.setBounds(7, 322, 170, 23);
 		add(m_btnOpenAllAs);
 
 	}
