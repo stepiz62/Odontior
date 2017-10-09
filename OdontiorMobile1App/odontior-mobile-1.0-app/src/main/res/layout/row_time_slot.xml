@@ -1,0 +1,75 @@
+<!--
+    Copyright (c) 2015, Stefano Pizzocaro. All rights reserved. Use is subject to license terms.
+
+    This file is part of Odontior Mobile 1.0.
+
+    Odontior Mobile 1.0 is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Odontior Mobile 1.0 is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with Odontior Mobile 1.0.  If not, see [http://www.gnu.org/licenses/].
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:singleLine="true"
+        android:text="00:00"
+        android:textAlignment="gravity"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:width="40dp" />
+
+    <TextView
+        android:id="@+id/busyflag"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:singleLine="true"
+        android:text="|||"
+        android:textAlignment="gravity"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:width="20dp" />
+
+    <TextView
+        android:id="@+id/firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:singleLine="true"
+        android:text="first name"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:width="75dp" />
+
+    <TextView
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:singleLine="true"
+        android:text="last name"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:width="85dp" />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:singleLine="true"
+        android:text="999"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:width="45dp" />
+</LinearLayout>

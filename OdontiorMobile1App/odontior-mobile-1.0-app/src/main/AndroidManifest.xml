@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.odontior.mobile" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".OdontiorApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Patients"
+            android:label="@string/title_activity_patients" />
+        <activity
+            android:name=".Organizer"
+            android:label="@string/title_activity_organizer" />
+        <activity
+            android:name=".PatientsList"
+            android:label="@string/title_activity_patients_list" />
+        <activity
+            android:name=".PatientDetails"
+            android:label="Patient details" />
+        <activity
+            android:name=".TimeSlotList"
+            android:label="@string/title_activity_time_slot_list" />
+        <activity
+            android:name=".Appointment"
+            android:label="@string/title_activity_appointment" />
+        <activity
+            android:name=".ArmchairDetails"
+            android:label="Armchair details" />
+        <activity
+            android:name=".Armchairs"
+            android:label="Armchairs" />
+        <activity
+            android:name=".ArmchairsList"
+            android:label="Armchairs list" />
+        <activity
+            android:name=".Customers"
+            android:label="Customers" >
+        </activity>
+        <activity
+            android:name=".Invoices"
+            android:label="Invoices" >
+        </activity>
+        <activity
+            android:name=".PatImageList"
+            android:label="Related images" >
+        </activity>
+        <activity
+            android:name=".CustomerList"
+            android:label="Customers" >
+        </activity>
+        <activity
+            android:name=".InvoiceList"
+            android:label="Invoices" >
+        </activity>
+         <activity
+            android:name=".PatCustList"
+            android:label="Related customers" >
+        </activity>
+        <activity
+            android:name=".CustPatList"
+            android:label="Related patients" >
+        </activity>
+        <activity
+            android:name=".CustomerDetails"
+            android:label="Customer" >
+        </activity>
+        <activity
+            android:name=".PatCustDetails"
+            android:label="Related customer" >
+        </activity>
+    </application>
+
+</manifest>
