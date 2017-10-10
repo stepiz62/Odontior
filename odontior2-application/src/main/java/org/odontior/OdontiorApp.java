@@ -118,7 +118,7 @@ public class OdontiorApp extends Application {
 				try {
 					UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 					app = new OdontiorApp();
-					app.init("Odontior 2.0", "2.0.7", null, null);
+					app.init("Odontior 2.0", "2.0.8", null, null);
 					} catch (Exception e) {
 					e.printStackTrace();
 					warningMsg("Serious failure !");
