@@ -23,6 +23,12 @@
 			<groupId>org.joty</groupId>
 			<artifactId>joty-workstation</artifactId>
 			<version>2.0.2</version>
+			<exclusions>
+				<exclusion>  
+					<groupId>org.eclipse.birt.runtime</groupId>
+					<artifactId>org.eclipse.birt.runtime</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.joty</groupId>
@@ -34,19 +40,15 @@
 			<artifactId>odontior2-common</artifactId>
 			<version>2.0.1</version>
 		</dependency>
-<!--  the following Used with (local) Accessor mode	(see http://joty.org/projectDetails.php)	
-		<dependency>
-			<groupId>com.stepiz62</groupId>
-			<artifactId>odontior2-accessor</artifactId>
-			<version>2.0.1</version>
-		</dependency>
--->
-	    <dependency> <!-- Oracle JDK is needed -->
-		      <groupId>javax.jnlp</groupId>
-		      <artifactId>jnlp-api</artifactId>
-		      <version>8.0</version>
-		      <scope>system</scope>
-			  <systemPath>${java.home}/lib/javaws.jar</systemPath> 
+		<!-- the following Used with (local) Accessor mode (see http://joty.org/projectDetails.php) 
+			<dependency> <groupId>com.stepiz62</groupId> <artifactId>odontior2-accessor</artifactId> 
+			<version>2.0.1</version> </dependency> -->
+		<dependency> <!-- Oracle JDK is needed -->
+			<groupId>javax.jnlp</groupId>
+			<artifactId>jnlp-api</artifactId>
+			<version>8.0</version>
+			<scope>system</scope>
+			<systemPath>${java.home}/lib/javaws.jar</systemPath>
 		</dependency>
 	</dependencies>
 	<properties>

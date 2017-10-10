@@ -72,7 +72,7 @@
  	<languages>en;it;</languages> 
  	<use_BIRT_engine>true</use_BIRT_engine>
  	<useAppOptions>true</useAppOptions> 
-	<shared>true</shared> 
+	<shared>false</shared> 
  	<sharingKeyField>sharingKey</sharingKeyField> 
  	<dialogsDesignedOnMac>false</dialogsDesignedOnMac>
 </config>
