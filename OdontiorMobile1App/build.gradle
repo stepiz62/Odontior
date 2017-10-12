@@ -4,10 +4,7 @@ buildscript {
     repositories {
         jcenter()
         mavenLocal()
-<<<<<<< HEAD
         mavenCentral()
-=======
->>>>>>> origin/master
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.3'
@@ -21,11 +18,8 @@ allprojects {
     repositories {
         jcenter()
         mavenLocal()
-<<<<<<< HEAD
         mavenCentral()
-=======
->>>>>>> origin/master
-    }
+   }
 }
 
 task clean(type: Delete) {
