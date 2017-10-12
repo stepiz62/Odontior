@@ -19,8 +19,11 @@
 
 package org.odontior.mobile;
 
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.Menu;
+import android.widget.TextView;
 
 import org.joty.mobile.gui.IdleActivity;
 import org.joty.mobile.app.JotyApp;
@@ -32,7 +35,11 @@ public class MainActivity extends IdleActivity {
         super.onCreate(savedInstanceState);
         setTitle(m_app.m_name);
         setContentView(R.layout.activity_main);
-     }
+        try {
+            ((TextView) findViewById(R.id.versionName)).
+                    setText(getPackageManager().getPackageInfo(getPackageName(), 0).versionName);
+        } catch (PackageManager.NameNotFoundException e) {
+        }}
 
     @Override
     protected void addMenuItemsToAppMenu(Menu menu) {

@@ -1,22 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'stefano'
-            keyPassword 'Eusebio62'
-            storeFile file('/home/stefano/Development/Joty_2017/Joty2MobileApp/.keystore.jks')
-            storePassword 'Eusebio62'
-        }
-    }
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
     defaultConfig {
         applicationId "org.odontior.mobile"
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+        versionCode 10
+        versionName "1.0.6"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         jackOptions {
             enabled true
@@ -41,7 +33,7 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:appcompat-v7:26.+'
     compile 'org.joty:joty-mobile:2.0.4@aar'
     compile 'org.joty:joty-core-app:2.0.1'
     compile 'org.joty:joty-core-common:2.0.2'
