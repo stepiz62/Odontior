@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
     defaultConfig {
-        applicationId "org.odontior.mobile"
+        applicationId "com.stepiz62.odontior.mobile"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 10

@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="org.odontior.mobile.Appointment"
+    tools:context="com.stepiz62.odontior.mobile.Appointment"
     android:weightSum="1">
 
     <TableLayout
@@ -93,7 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="armchair"
-                android:singleLine="true"
+                android:maxLines="1"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:padding="3dp" />
 
@@ -104,6 +104,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:orientation="vertical"
         android:background="#ffe9faff"
@@ -113,9 +114,10 @@
             android:id="@+id/patient"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
             android:layout_alignParentStart="false"
             android:hint="patient"
-            android:singleLine="true"
+            android:maxLines="1"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_centerHorizontal="true"
             android:layout_gravity="center_horizontal"
@@ -146,9 +148,8 @@
                 android:text="(minutes)"
                 android:id="@+id/minutesLbl"
                 android:layout_gravity="center"
-                android:singleLine="false"
+                android:maxLines="1"
                 android:gravity="center_vertical"
-                android:password="false"
                 android:paddingLeft="10dp" />
         </LinearLayout>
 

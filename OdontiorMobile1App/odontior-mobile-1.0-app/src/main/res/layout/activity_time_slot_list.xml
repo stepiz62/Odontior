@@ -33,14 +33,14 @@
 
         <fragment
             android:id="@+id/hour_list"
-            android:name="org.odontior.mobile.HourListFragment"
+            android:name="com.stepiz62.odontior.mobile.HourListFragment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:layout="@android:layout/list_content"
             android:layout_weight="0.8" />
         <fragment
             android:id="@+id/timeslot_list"
-            android:name="org.odontior.mobile.TimeSlotListFragment"
+            android:name="com.stepiz62.odontior.mobile.TimeSlotListFragment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:layout="@android:layout/list_content"
