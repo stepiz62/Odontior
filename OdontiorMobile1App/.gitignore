@@ -1,0 +1,5 @@
+.gradle
+.idea
+/build
+/gradle
+/odontior-mobile-1.0-app/build
