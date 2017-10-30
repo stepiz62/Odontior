@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.stepiz62</groupId>
 	<artifactId>odontior2-application</artifactId>
-	<version>2.0.8</version>
+	<version>2.0.9</version>
 	<name>Odontior 2.0 application</name>
 	<description>Odontior 2.0 application for workstation</description>
 	<build>
@@ -22,7 +22,7 @@
 		<dependency>
 			<groupId>org.joty</groupId>
 			<artifactId>joty-workstation</artifactId>
-			<version>2.0.2</version>
+			<version>2.0.3</version>
 			<exclusions>
 				<exclusion>  
 					<groupId>org.eclipse.birt.runtime</groupId>
@@ -38,7 +38,7 @@
 		<dependency>
 			<groupId>com.stepiz62</groupId>
 			<artifactId>odontior2-common</artifactId>
-			<version>2.0.1</version>
+			<version>2.0.2</version>
 		</dependency>
 		<!-- the following Used with (local) Accessor mode (see http://joty.org/projectDetails.php) 
 			<dependency> <groupId>com.stepiz62</groupId> <artifactId>odontior2-accessor</artifactId> 
