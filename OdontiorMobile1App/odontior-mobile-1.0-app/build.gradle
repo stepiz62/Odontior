@@ -30,7 +30,7 @@ android {
         exclude 'META-INF/Notice.txt'
     }
 }
-
+ 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'org.joty:joty-mobile:2.0.4@aar'
